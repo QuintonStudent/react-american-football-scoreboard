@@ -20,7 +20,7 @@ function App() {
       } else {
         setCount(count + 1);
       }
-    }, 500);
+    }, 1000);
 
     return () => clearInterval(interval);
   });
